@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+# ------------------------------------------------------------------------------
+# | UTF-8 encoding                                                             |
+# ------------------------------------------------------------------------------
+AddDefaultCharset utf-8
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+</IfModule>
