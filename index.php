@@ -28,7 +28,7 @@
                     </header>
                     <ul>
                         <li>
-                            <a title="Trevor Geene's Resume" href="http://trevor.geene.info">Trevor Geene's Resume</a>
+                            <a title="Trevor Geene's Resume" href="http://trevor.geene.co">Trevor Geene's Resume</a>
                         </li>
                     </ul>
                 </section>
